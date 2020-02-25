@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connect"/>
+
+    <Button
+        android:id="@+id/btn_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="disConnect"
+        />
+
+    <Button
+        android:id="@+id/btn_isConnected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="isConnected"/>
+
+    <Button
+        android:id="@+id/btn_sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendMessage"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"/>
+
+    <Button
+        android:id="@+id/btn_unRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unRegister"/>
+
+
+</LinearLayout>
